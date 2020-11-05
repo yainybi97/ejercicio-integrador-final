@@ -1,0 +1,26 @@
+<web-app>
+    <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>AutoController</servlet-name>
+        <servlet-class>controller.AutoController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AutoController</servlet-name>
+        <url-pattern>/auto</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AutosController</servlet-name>
+        <servlet-class>controller.AutosController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AutosController</servlet-name>
+        <url-pattern>/autos</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
